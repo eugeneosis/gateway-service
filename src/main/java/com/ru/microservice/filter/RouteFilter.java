@@ -14,12 +14,12 @@ public class RouteFilter extends ZuulFilter {
 
     @Override
     public String filterType() {
-        return "route";
+        return "routing";
     }
 
     @Override
     public int filterOrder() {
-        return 1;
+        return 2;
     }
 
     @Override
